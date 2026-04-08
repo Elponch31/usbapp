@@ -99,7 +99,7 @@ class MainActivity : ComponentActivity() {
                 break
             }
         }
-    }
+    }  
 
     private fun pedirPermiso(device: UsbDevice) {
         usbManager.requestPermission(device, permissionIntent)
